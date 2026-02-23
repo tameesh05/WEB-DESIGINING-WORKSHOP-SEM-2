@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Need For Speed- Home Page</title>
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family: Arial,sans-serif;
+            height: 100vh;
+        }
+        .gamescreen{
+            width:100%;
+            height:100%;
+            position:relative;
+            background-image:url("need-for-speed-payback-crashing-car-gridazic7g1bul0u.jpg");
+            background-size:cover;
+            background-position:center;
+        }
+        .logo{
+            position:absolute;
+            top:50px;
+            left:50px;
+        }
+
+        .title{
+            font-size:80px;
+            margin:0;
+            color:orange;
+            text-transform:uppercase;
+            font-style:italic;
+            text-shadow:4px 4px 0px #000;
+        }
+
+        .edition{
+            font-size:24px;
+            letter-spacing:10px;
+            margin-left:5px;
+            color:wheat;
+        }
+        .menu {
+            position:absolute;
+            bottom:100px;
+            left:50px;
+            display:flex;
+            flex-direction:column;
+            gap:10px;
+        }
+        .button{
+            background-color:rgba(0, 0, 0, 0.7);
+             border-left:5px grey;
+            color:white;
+            padding:15px 30px;
+            font-size:24px;
+            text-align: left;
+           width:300px;
+            text-transform:uppercase;
+            transform:skewX(-20deg);
+
+        }
+        button span{
+             transform: skewX(20deg);
+
+        }
+         .button:hover{
+            background-color:orange;
+            border-left: 5pxsolid white;
+            padding-left:50px;
+        }
+        .status-bar {
+            position:absolute;
+            bottom:0;
+            width:100%;
+            height:40px;
+            background-color:black;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            padding:0 20px;
+            font-size:14px;
+        }
+          </style>
+</head>
+
+<body>
+
+    <div class="gamescreen">
+
+        
+        <div class="logo">
+            <h1 class="title">Need<br>For<br>Speed</h1>
+            <div class="edition">HEAT</div>
+        </div>
+        <div class="menu">
+            <button class="button"><span>Start Game</span></button>
+            <button class="button"><span>Garage</span></button>
+            <button class="button"><span>Dealership</span></button>
+            <button class="button"><span>Settings</span></button>
+        </div>
+         <div class="status-bar">
+            <div>Player:Racer01</div>
+           </div>
+        </style>
+    
+</head>
+<body>
+    
+</body>
+</html>
