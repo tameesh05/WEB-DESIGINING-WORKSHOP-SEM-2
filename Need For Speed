@@ -15,7 +15,7 @@
             width:100%;
             height:100%;
             position:relative;
-            background-image:url("need-for-speed-payback-crashing-car-gridazic7g1bul0u.jpg");
+            background-image:url("https://imgs.search.brave.com/xssmFbKwSUWp517Ui9ZkdgwcOyupo6rnXv8wnJWe2bk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvbmVl/ZC1mb3Itc3BlZWQt/cGF5YmFjay1jcmFz/aGluZy1jYXItZ3Jp/ZGF6aWM3ZzFidWww/dS5qcGc");
             background-size:cover;
             background-position:center;
         }
